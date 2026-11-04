@@ -630,7 +630,44 @@ public static void main(String[] args) {
 //         System.out.print("\033[999;1H" + baris);
 //         System.out.flush();
 //         Thread.sleep(100);  // kecepatan animasi (ms)
-// =====================================================================
+// soal 40
+// Bergerak dari atas ke bawah
+        // for (int i = 1; i <= 20; i++) {
+        //     System.out.println("\n".repeat(i) + " ".repeat(50) + "0");
+        //     Thread.sleep(200);
+        //     System.out.print("\033[H\033[2J");
+        //     System.out.flush();
+        // }
+
+        // // Bergerak dari bawah ke atas
+        // for (int i = 20; i >= 1; i--) {
+        //     System.out.println("\n".repeat(i) + " ".repeat(50) + "0");
+        //     Thread.sleep(200);
+        //     System.out.print("\033[H\033[2J");
+        //     System.out.flush();
+        // }
+//soal 41
+// for (int i = 20; i >= 1; i--) {
+
+//             for (int j = 1; j <= i; j++) {
+//                 System.out.println();
+//             }
+
+//             System.out.println("0");
+
+//             Thread.sleep(100);
+//         }
+
+//         for (int i = 2; i <= 20; i++) {
+
+//             for (int j = 1; j <= i; j++) {
+//                 System.out.println();
+//             }
+
+//             System.out.println("0");
+
+//             Thread.sleep(100);
+//         }
 //soal 42
 // Scanner scanner = new Scanner(System.in);
         
